@@ -1,0 +1,16 @@
+com.example.task_manager.app-core-1.6.0-0 C:\Users\vvsav\.gradle\caches\transforms-3\284a410c767ad6c7a2b0ffc8d8d85981\transformed\core-1.6.0\res
+com.example.task_manager.app-jetified-window-java-1.0.0-beta04-1 C:\Users\vvsav\.gradle\caches\transforms-3\2a215381204751055df81b6269e717b7\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.task_manager.app-jetified-annotation-experimental-1.1.0-2 C:\Users\vvsav\.gradle\caches\transforms-3\3d2f03fc996c2e0aa3dee5cfa3002cd1\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.task_manager.app-media-1.1.0-3 C:\Users\vvsav\.gradle\caches\transforms-3\d0437f7986a0a2cb359d7d189a9ac969\transformed\media-1.1.0\res
+com.example.task_manager.app-jetified-window-1.0.0-beta04-4 C:\Users\vvsav\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\res
+com.example.task_manager.app-debug-5 C:\Users\vvsav\StudioProjects\task_manager\android\app\src\debug\res
+com.example.task_manager.app-main-6 C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\res
+com.example.task_manager.app-pngs-7 C:\Users\vvsav\StudioProjects\task_manager\build\app\generated\res\pngs\debug
+com.example.task_manager.app-resValues-8 C:\Users\vvsav\StudioProjects\task_manager\build\app\generated\res\resValues\debug
+com.example.task_manager.app-rs-9 C:\Users\vvsav\StudioProjects\task_manager\build\app\generated\res\rs\debug
+com.example.task_manager.app-mergeDebugResources-10 C:\Users\vvsav\StudioProjects\task_manager\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.task_manager.app-mergeDebugResources-11 C:\Users\vvsav\StudioProjects\task_manager\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.task_manager.app-merged_res-12 C:\Users\vvsav\StudioProjects\task_manager\build\app\intermediates\merged_res\debug
+com.example.task_manager.app-packaged_res-13 C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\packaged_res\debug
+com.example.task_manager.app-packaged_res-14 C:\Users\vvsav\StudioProjects\task_manager\build\shared_preferences_android\intermediates\packaged_res\debug
+com.example.task_manager.app-packaged_res-15 C:\Users\vvsav\StudioProjects\task_manager\build\sqflite\intermediates\packaged_res\debug

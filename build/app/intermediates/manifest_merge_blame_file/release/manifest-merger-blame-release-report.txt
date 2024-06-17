@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.task_manager"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         Required to query activities that can process text, see:
+12         https://developer.android.com/training/package-visibility?hl=en and
+13         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+14
+15         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+16    -->
+17    <queries>
+17-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:39:5-44:15
+18        <intent>
+18-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:40:9-43:18
+19            <action android:name="android.intent.action.PROCESS_TEXT" />
+19-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:41:13-72
+19-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:41:21-70
+20
+21            <data android:mimeType="text/plain" />
+21-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:42:13-50
+21-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:42:19-48
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+25-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-66
+26-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-63
+27    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+27-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+27-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+28    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+28-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+28-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+29-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+29-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+30
+31    <application
+32        android:name="android.app.Application"
+32-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:4:9-42
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.6.0] C:\Users\vvsav\.gradle\caches\transforms-3\284a410c767ad6c7a2b0ffc8d8d85981\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:5:9-43
+35        android:label="Ежедневник" >
+35-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:3:9-35
+36        <activity
+36-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:6:9-27:20
+37            android:name="com.example.task_manager.MainActivity"
+37-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:7:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:12:13-163
+39            android:exported="true"
+39-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:8:13-36
+40            android:hardwareAccelerated="true"
+40-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:13:13-47
+41            android:launchMode="singleTop"
+41-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:10:13-43
+42            android:theme="@style/LaunchTheme"
+42-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:11:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:14:13-55
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+51-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:19:13-22:17
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:20:15-70
+53                android:resource="@style/NormalTheme" />
+53-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:21:15-52
+54
+55            <intent-filter>
+55-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:23:13-26:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:24:17-68
+56-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:24:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:25:17-76
+58-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:25:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:30:9-32:33
+66            android:name="flutterEmbedding"
+66-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:31:13-44
+67            android:value="2" />
+67-->C:\Users\vvsav\StudioProjects\task_manager\android\app\src\main\AndroidManifest.xml:32:13-30
+68
+69        <receiver
+69-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+70            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+70-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-91
+71            android:exported="false" />
+71-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+72        <receiver
+72-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:40
+73            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+73-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-97
+74            android:exported="false" />
+74-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+75        <receiver
+75-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-31:20
+76            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+76-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-101
+77            android:exported="false" >
+77-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+78            <intent-filter>
+78-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-30:29
+79                <action android:name="android.intent.action.BOOT_COMPLETED" />
+79-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-79
+79-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-76
+80                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+80-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-84
+80-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-81
+81                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+81-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-82
+81-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:25-79
+82                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+82-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-82
+82-->[:flutter_local_notifications] C:\Users\vvsav\StudioProjects\task_manager\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:25-79
+83            </intent-filter>
+84        </receiver>
+85
+86        <uses-library
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\vvsav\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+87            android:name="androidx.window.extensions"
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\vvsav\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+88            android:required="false" />
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\vvsav\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+89        <uses-library
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\vvsav\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+90            android:name="androidx.window.sidecar"
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\vvsav\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+91            android:required="false" />
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\vvsav\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+92    </application>
+93
+94</manifest>
